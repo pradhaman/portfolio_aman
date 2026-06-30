@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aman Pradhan — Software Developer</title>
+  <meta name="description" content="Aman Pradhan — Computer Science student and aspiring software developer. Python, Django, and full-stack web development.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="#main-content" class="nav-brand"><span class="dot">●</span> aman.pradhan</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">menu</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="https://github.com/pradhaman" target="_blank" rel="noopener"><span class="comment">//</span> github</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ============== HERO / TERMINAL ============== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="terminal-dot red"></span>
+              <span class="terminal-dot yellow"></span>
+              <span class="terminal-dot green"></span>
+              <span class="terminal-title">aman@portfolio:~</span>
+            </div>
+            <div class="terminal-body">
+              <div class="terminal-line">
+                <span class="terminal-prompt">$</span>
+                <span class="terminal-cmd" id="typedCommand" data-text="whoami --verbose"></span><span class="caret"></span>
+              </div>
+
+              <div class="terminal-output" id="terminalOutput" style="display:none;">
+                <h1 class="output-name">Aman Pradhan<span class="punct">_</span></h1>
+                <p class="output-role">Computer Science Student <span class="sep">//</span> Python &amp; Django Developer</p>
+                <p class="output-desc">
+                  I build clean, practical web applications — mostly with Python, Django, and a
+                  healthy respect for readable code. Currently a B.Tech CSE student at SOA University,
+                  Bhubaneswar, looking for my first real shot at shipping software on a team.
+                </p>
+                <div class="hero-ctas">
+                  <a href="#projects" class="btn btn-primary">→ view projects</a>
+                  <a href="#contact" class="btn btn-outline">get in touch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== ABOUT ============== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-label"><span class="path-sep">~/</span><span class="path-name">about</span></div>
+        <h2><span class="num">01.</span> About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a Computer Science undergraduate with a strong foundation in software development,
+              currently building my skills in Python, Django, and full-stack web development. I enjoy
+              translating real-world problems into clean, efficient, and user-focused applications
+              through hands-on project work.
+            </p>
+            <p>
+              I'm continuously expanding my technical expertise through self-driven learning, and I try
+              to follow modern software engineering practices even on personal projects — proper version
+              control, sensible project structure, and code that someone else could actually read.
+              I'm eager to bring a fresh perspective, strong problem-solving ability, and genuine
+              enthusiasm for technology to an engineering team.
+            </p>
+          </div>
+
+          <ul class="about-fact-list">
+            <li><span class="key">education</span><span class="val">B.Tech CSE, SOA University</span></li>
+            <li><span class="key">graduation</span><span class="val">Expected 2028</span></li>
+            <li><span class="key">cgpa</span><span class="val">8.22 / 10</span></li>
+            <li><span class="key">location</span><span class="val">Bhubaneswar, Odisha, IN</span></li>
+            <li><span class="key">languages</span><span class="val">English, Hindi, Odia</span></li>
+            <li><span class="key">status</span><span class="val" style="color:var(--accent-green);">open to opportunities</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== SKILLS ============== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-label"><span class="path-sep">~/</span><span class="path-name">skills</span></div>
+        <h2><span class="num">02.</span> Technical Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-block">
+            <span class="skill-key">languages:</span>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">SQL</span>
+            </div>
+          </div>
+
+          <div class="skill-block">
+            <span class="skill-key">web:</span>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Django</span>
+            </div>
+          </div>
+
+          <div class="skill-block">
+            <span class="skill-key">libraries:</span>
+            <div class="skill-tags">
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+            </div>
+          </div>
+
+          <div class="skill-block">
+            <span class="skill-key">tools:</span>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== PROJECTS ============== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-label"><span class="path-sep">~/</span><span class="path-name">projects</span></div>
+        <h2><span class="num">03.</span> Featured Projects</h2>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Road Safety Management System -->
+          <article class="project-card">
+            <div class="project-card-head">
+              <div class="project-filename">road_safety_system<span class="ext">.py</span></div>
+              <div class="project-links">
+                <a href="https://github.com/pradhaman/road-safety-management-system" target="_blank" rel="noopener">code →</a>
+              </div>
+            </div>
+            <p class="project-desc">
+              A web-based platform promoting road safety — traffic rules, a sign &amp; symbol guide,
+              safety tips by road-user type, emergency contacts, and a hazard/accident reporting
+              system with a full review workflow.
+            </p>
+            <ul class="project-features">
+              <li>Secure user registration and login with role-based profiles (driver, rider, pedestrian, cyclist)</li>
+              <li>End-to-end hazard &amp; accident reporting — users log, edit, and track their own reports</li>
+              <li>Admin dashboard for reviewing reports and managing their status</li>
+              <li>Normalized relational schema with full CRUD across all models</li>
+              <li>Responsive layout, usable on desktop and mobile</li>
+            </ul>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">Django</span>
+              <span class="stack-tag">HTML</span>
+              <span class="stack-tag">CSS</span>
+              <span class="stack-tag">JavaScript</span>
+              <span class="stack-tag">SQLite</span>
+            </div>
+          </article>
+
+          <!-- Project 2: This Portfolio -->
+          <article class="project-card">
+            <div class="project-card-head">
+              <div class="project-filename">portfolio<span class="ext">.html</span></div>
+              <div class="project-links">
+                <a href="https://github.com/pradhaman/portfolio" target="_blank" rel="noopener">code →</a>
+              </div>
+            </div>
+            <p class="project-desc">
+              This site. A fully responsive personal portfolio built from scratch — no framework,
+              no template — designed around a code-editor visual language that reflects how I
+              actually spend my time.
+            </p>
+            <ul class="project-features">
+              <li>Hand-written HTML/CSS/JS, no build step — deploys directly to GitHub Pages</li>
+              <li>Custom typed-terminal hero and file-card project layout</li>
+              <li>Interactive project showcase with consistent structure per entry</li>
+              <li>Working contact section that opens a pre-filled email — no backend needed</li>
+              <li>Mobile-first responsive design with reduced-motion support</li>
+            </ul>
+            <div class="project-stack">
+              <span class="stack-tag">HTML</span>
+              <span class="stack-tag">CSS</span>
+              <span class="stack-tag">JavaScript</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CONTACT ============== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-label"><span class="path-sep">~/</span><span class="path-name">contact</span></div>
+        <h2><span class="num">04.</span> Get In Touch</h2>
+
+        <div class="contact-card">
+          <div class="contact-sig">
+            <span class="fn">send_message</span>(<span class="arg">name</span>, <span class="arg">email</span>, <span class="arg">message</span>)
+          </div>
+
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="cf-name">name <span class="req">*</span></label>
+              <input type="text" id="cf-name" name="name" required placeholder="Your full name">
+            </div>
+            <div class="field">
+              <label for="cf-email">email <span class="req">*</span></label>
+              <input type="email" id="cf-email" name="email" required placeholder="you@example.com">
+            </div>
+            <div class="field">
+              <label for="cf-message">message <span class="req">*</span></label>
+              <textarea id="cf-message" name="message" required placeholder="What would you like to talk about?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">→ send message</button>
+          </form>
+
+          <div class="contact-direct">
+            <a href="mailto:amanpradhan171@gmail.com">✉ amanpradhan171@gmail.com</a>
+            <a href="https://linkedin.com/in/aman0p" target="_blank" rel="noopener">in linkedin.com/in/aman0p</a>
+            <a href="https://github.com/pradhaman" target="_blank" rel="noopener">⌥ github.com/pradhaman</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; width:100%;">
+      <span>&copy; <span id="year"></span> Aman Pradhan. Built with HTML, CSS &amp; JS.</span>
+      <span><span class="accent">●</span> status: open to opportunities</span>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
